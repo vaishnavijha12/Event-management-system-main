@@ -10,7 +10,7 @@ router.post(
   '/:id/register',
   registrationRateLimiter,
   authenticate,
-  authorizeRoles('customer', 'organizer', 'admin'),
+  authorizeRoles('attendee', 'organizer', 'admin'),
   registerForEvent
 );
 router.get('/me', authenticate, myRegistrations);
