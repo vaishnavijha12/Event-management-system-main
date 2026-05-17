@@ -301,7 +301,6 @@ export default function FooterStandard() {
           </p>
         </div>
         </div>  {/* Close grid container from line 263 */}
-        </div>  {/* Close divider container from line 259 */}
       </div>    {/* Close bottom section from line 238 */}
 
       {/* Legal Modal */}
