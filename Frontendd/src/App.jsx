@@ -3,7 +3,6 @@ import {
   Routes,
   Route,
   Navigate,
-  useLocation,
 } from "react-router-dom";
 import "./index.css";
 import Footer from "./components/mvpblocks/footer-standard";
@@ -25,26 +24,7 @@ import ThankYou from "./pages/ThankYou";
 import { useAuth } from "./context/AuthContext";
 import ScrollToTop from "./components/ui/ScrollToTop";
 
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import './index.css'
-import Footer from "./components/mvpblocks/footer-standard";
-import Header2 from "./components/mvpblocks/header-2"
-import Home from './pages/Home';
-import Features from './pages/Features';
-import Pricing from './pages/Pricing';
-import Contact from './pages/Contact';
-import About from './pages/About';
-import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
-import Profile from './pages/Profile';
-import DashboardLayout from './components/DashboardLayout';
-import CustomerDashboard from './pages/dashboard/CustomerDashboard';
-import OrganizerDashboard from './pages/dashboard/OrganizerDashboard';
-import CreateEvent from './pages/dashboard/CreateEvent';
-import AdminDashboard from './pages/dashboard/AdminDashboard';
-import ThankYou from './pages/ThankYou';
-import { useAuth } from './context/AuthContext';
-import ScrollToTop from './components/ScrollToTop';
+
 // Protected Route Component
 const ProtectedRoute = ({ children, allowedRoles }) => {
   const { user, loading } = useAuth();
