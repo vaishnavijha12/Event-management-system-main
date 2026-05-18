@@ -233,7 +233,7 @@ export default function Header2({ darkMode, setDarkMode}) {
 
                   <button
                       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                      className="p-2 rounded-lg border border-gray-300 dark: border-gray-800 transition"
+                      className="p-2 rounded-lg border border-gray-300 dark:border-gray-800 transition"
                   >
                     {theme === "dark" ? "☀️" : "🌙"}
                   </button>
