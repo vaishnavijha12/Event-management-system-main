@@ -35,3 +35,4 @@ export const registrationLimiter = rateLimit({
   standardHeaders: true,
   legacyHeaders: false,
 });
+export const authRateLimiter = authLimiter;
